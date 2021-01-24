@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task1", "Task1", "{47CEB055-DC8D-48F5-829C-696880D7D065}"
+	ProjectSection(SolutionItems) = preProject
+		create_db.sql = create_db.sql
+		create_sp_insert_note.sql = create_sp_insert_note.sql
+		create_sp_insert_user.sql = create_sp_insert_user.sql
+		create_sp_select_note.sql = create_sp_select_note.sql
+		create_sp_select_user_notes.sql = create_sp_select_user_notes.sql
+		create_sp_select_users_notes_count.sql = create_sp_select_users_notes_count.sql
+		create_sp_update_note_mark_deleted.sql = create_sp_update_note_mark_deleted.sql
+		create_table_notes.sql = create_table_notes.sql
+		create_table_users.sql = create_table_users.sql
+		test.sql = test.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task2", "Task2", "{7A4D78CD-B4F1-4762-A25F-58FF89A83174}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotesApp.Services", "NotesApp.Services\NotesApp.Services.csproj", "{780F5EBC-84C9-4FCE-AFA0-25EFC779AD8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotesApp.Tools", "NotesApp.Tools\NotesApp.Tools.csproj", "{2F1F05EF-55BD-4AA9-BF41-44F35877BEC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotesApp.Tests", "NotesApp.Tests\NotesApp.Tests.csproj", "{CDA87243-12E1-4E6C-B6E2-2D856CEC4FCC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{780F5EBC-84C9-4FCE-AFA0-25EFC779AD8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{780F5EBC-84C9-4FCE-AFA0-25EFC779AD8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{780F5EBC-84C9-4FCE-AFA0-25EFC779AD8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{780F5EBC-84C9-4FCE-AFA0-25EFC779AD8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F1F05EF-55BD-4AA9-BF41-44F35877BEC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F1F05EF-55BD-4AA9-BF41-44F35877BEC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F1F05EF-55BD-4AA9-BF41-44F35877BEC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F1F05EF-55BD-4AA9-BF41-44F35877BEC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDA87243-12E1-4E6C-B6E2-2D856CEC4FCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDA87243-12E1-4E6C-B6E2-2D856CEC4FCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDA87243-12E1-4E6C-B6E2-2D856CEC4FCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDA87243-12E1-4E6C-B6E2-2D856CEC4FCC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{780F5EBC-84C9-4FCE-AFA0-25EFC779AD8A} = {7A4D78CD-B4F1-4762-A25F-58FF89A83174}
+		{2F1F05EF-55BD-4AA9-BF41-44F35877BEC4} = {7A4D78CD-B4F1-4762-A25F-58FF89A83174}
+		{CDA87243-12E1-4E6C-B6E2-2D856CEC4FCC} = {7A4D78CD-B4F1-4762-A25F-58FF89A83174}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {818EFCFB-FD3B-48D3-8DF5-A8205079BED8}
+	EndGlobalSection
+EndGlobal
